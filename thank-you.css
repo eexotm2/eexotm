@@ -1,0 +1,33 @@
+.thank-you-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.thank-you-testimonial {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.thank-you-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+@media(max-width: 1200px) {
+  .thank-you-container {
+    background-color: #D9D9D9;
+  }
+}
+@media(max-width: 479px) {
+  .thank-you-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}

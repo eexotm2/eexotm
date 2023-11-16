@@ -1,0 +1,20 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page-container1 {
+  width: 712px;
+  height: 997px;
+}
+.page-container2 {
+  display: contents;
+}
+@media(max-width: 479px) {
+  .page-container1 {
+    padding-top: 664px;
+  }
+}
